@@ -3,10 +3,6 @@ name: Home Assistant CI
 
 # yamllint disable-line rule:truthy
 on:
-  push:
-    paths-ignore:
-      - 'README.md'
-      - 'esphome/*'
   pull_request:
     push:
       paths-ignore:

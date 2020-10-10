@@ -3,9 +3,6 @@ name: Esp Home CI
 
 # yamllint disable-line rule:truthy
 on:
-  push:
-    paths:
-      - 'esphome/*.yaml'
   pull_request:
     paths:
       - 'esphome/*.yaml'
