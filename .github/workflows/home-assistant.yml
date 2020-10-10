@@ -42,7 +42,7 @@ jobs:
       - name: Copy stub files into configuration folder
         run: cp -R ./.stubs/* .
       - name: workspace contents
-        run: ls ${ github.workspace }
+        run: ls ${{ github.workspace }}
       - name: Home Assistant Version
         uses: "docker://homeassistant/home-assistant:stable"
         with:
@@ -53,6 +53,6 @@ jobs:
         with:
           args: |
             python -m homeassistant \
-              --config ${ github.workspace } \
+              --config ${{ github.workspace }} \
               --script check_config \
               --info all
