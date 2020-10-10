@@ -3,7 +3,6 @@
 #
 # https://www.home-assistant.io/integrations/group/
 #
-
 holiday_sensors:
   name: Holiday Sensors
   entities:
