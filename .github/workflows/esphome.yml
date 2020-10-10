@@ -9,10 +9,13 @@ on:
 jobs:
   esphome:
     runs-on: ubuntu-latest
-    needs: [yamllint]
     steps:
       - name: Getting your configuration from GitHub
         uses: actions/checkout@v1
+      - name: Running YAMLlint
+        uses: "docker://pipelinecomponents/yamllint:latest"
+        with:
+          args: yamllint .
       - name: Set up Python 3.7
         uses: actions/setup-python@v1
         with:
