@@ -54,4 +54,3 @@ jobs:
               --config ./ \
               --script check_config \
               --info all
- 
