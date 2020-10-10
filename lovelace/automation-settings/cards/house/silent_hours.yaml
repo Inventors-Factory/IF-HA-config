@@ -7,7 +7,4 @@
 type: entities
 title: Silent hours
 entities:
-  - entity: input_datetime.setting_house_silent_hours_start
-    name: Starts at
-  - entity: input_datetime.setting_house_silent_hours_end
-    name: Ends at
+  - entity: input_datetime.example_datetime

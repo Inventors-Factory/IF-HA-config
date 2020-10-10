@@ -6,7 +6,4 @@
 type: entities
 title: Bathroom
 entities:
-  - entity: input_number.setting_bathroom_humidity_high
-    name: Humidity High
-  - entity: input_number.setting_bathroom_humidity_low
-    name: Humidity Low
+  - entity: input_number.example_number
