@@ -1,0 +1,14 @@
+---
+# This is an input select to use with automations
+# 
+#
+# https://www.home-assistant.io/integrations/input_select/
+#
+example_select:
+  name: Example Select
+  options:
+    - first option
+    - second option
+    - third option
+  initial: first option
+  icon: mdi:panda

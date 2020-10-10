@@ -1,0 +1,10 @@
+---
+  # This is an input boolean to use with automations
+  # 
+  #
+  # https://www.home-assistant.io/integrations/input_boolean/
+  #
+example_boolean:
+  name: Example Boolean
+  initial: true
+  icon: mdi:cog

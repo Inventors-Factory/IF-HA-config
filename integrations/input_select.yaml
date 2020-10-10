@@ -8,7 +8,4 @@
 #
 # https://www.home-assistant.io/integrations/input_select/
 #
-# I don't store my input select entities in my YAML configuration,
-# instead I manage them via the Home Assistant frontend.
-#
-input_select: ~
+input_select: !include_dir_merge_named ../entities/input/select

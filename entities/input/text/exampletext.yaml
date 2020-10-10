@@ -1,0 +1,9 @@
+---
+# This is an input text to use with automations
+# 
+#
+# https://www.home-assistant.io/integrations/input_text/
+#
+example_select:
+  name: Example Text
+  initial: Some Text

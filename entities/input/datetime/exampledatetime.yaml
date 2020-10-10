@@ -1,0 +1,10 @@
+---
+# This is an input datetime to use with automations
+# 
+#
+# https://www.home-assistant.io/integrations/input_datetime/
+#
+example_datetime:
+  name: Example Datetime
+  has_date: true
+  has_time: true
