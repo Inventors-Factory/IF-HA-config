@@ -1,16 +1,16 @@
 ---
 ignore: |
-  config/custom_components/
-  config/ip_bans.yaml
-  config/esphomeyaml/*/
-  config/notebooks/
-  config/automations.yaml
-  config/scenes.yaml
-  config/themes/clear.yaml
-  config/themes/slate.yaml
-  config/themes/clear-dark.yaml
-  config/themes/synthwave.yaml
-  config/themes/purple.yaml
+  custom_components/
+  ip_bans.yaml
+  esphomeyaml/*/
+  notebooks/
+  automations.yaml
+  scenes.yaml
+  themes/clear.yaml
+  themes/slate.yaml
+  themes/clear-dark.yaml
+  themes/synthwave.yaml
+  themes/purple.yaml
 rules:
   braces:
     level: error
@@ -46,7 +46,7 @@ rules:
     level: error
     present: true
     ignore: |
-      config/known_devices.yaml
+      known_devices.yaml
   empty-lines:
     level: error
     max: 1
