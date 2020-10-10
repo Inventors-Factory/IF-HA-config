@@ -7,5 +7,5 @@
 holiday_sensors:
   name: Holiday Sensors
   entities:
-    - binary_sensors.holiday
-    - binary_sensors.weekend
+    - binary_sensor.holiday
+    - binary_sensor.weekend
