@@ -1,4 +1,4 @@
 ---
-name: frenck_telegram
+name: frenck_telegram #TODo : fix this.
 platform: telegram
 chat_id: !secret telegram_frenck
