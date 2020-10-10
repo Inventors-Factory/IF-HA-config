@@ -52,7 +52,4 @@ jobs:
         uses: "docker://homeassistant/home-assistant:stable"
         with:
           args: |
-            python -m homeassistant \
-              --config ${{ github.workspace }} \
-              --script check_config \
-              --info all
+            python -m homeassistant --config . --script check_config --info all
