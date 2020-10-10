@@ -8,7 +8,7 @@
 #
 platform: workday
 name: weekend
-country: NL
+country: DK
 workdays:
   - sat
   - sun
