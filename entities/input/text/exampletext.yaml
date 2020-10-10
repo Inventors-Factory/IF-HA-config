@@ -6,4 +6,4 @@
 #
 example_select:
   name: Example Text
-  initial: Some Text
+  initial: !secret example

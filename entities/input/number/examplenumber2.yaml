@@ -4,9 +4,9 @@
 #
 # https://www.home-assistant.io/integrations/input_number/
 #
-example_number:
-  name: Example Number
-  min: 0
-  max: 100
-  step: 1
+example_number_2:
+  name: Example Number_Two
+  min: !secret min
+  max: !secret max
+  step: !secret step
   icon: mdi:weather-sunny

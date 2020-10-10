@@ -29,7 +29,8 @@ options.xml
 OZW_Log.txt
 pyozw.sqlite
 scripts.yaml
-secrets.yaml
+./secrets.yaml
+./esphome/secrets.yaml
 zwcfg_*
 zwscene.xml
 
@@ -49,4 +50,3 @@ notebooks
 
 # Specific keeps
 !.gitkeep
-!*/secrets.yaml

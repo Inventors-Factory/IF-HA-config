@@ -1,0 +1,12 @@
+---
+# This is an input number to use with automations
+#
+#
+# https://www.home-assistant.io/integrations/input_number/
+#
+example_number_1:
+  name: Example Number One
+  min: !secret min
+  max: !secret max
+  step: !secret step
+  icon: mdi:weather-sunny
